@@ -10,6 +10,7 @@ spring:
       ddl-auto: update
   datasource:
     druid:
+      driver-class-name: com.mysql.jdbc.Driver
       url: jdbc:mysql://13.58.87.174:3306/spcloud
       username: root
       password: booszy
